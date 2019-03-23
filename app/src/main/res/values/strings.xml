@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cocktail App</string>
+    <string name="title_activity_meus_anuncios">MeusAnuncios</string>
+
+    <string-array name="estados">
+
+        <item>Shaken</item>
+        <item>Stir</item>
+        <item>Mixing Glass</item>
+        <item>Built</item>
+        <item>Dry Shake</item>
+        <item>Frozen</item>
+    </string-array>
+
+    <string-array name="categoria">
+        <item>Rum</item>
+        <item>Vodka</item>
+        <item>Tequila</item>
+        <item>Gin</item>
+        <item>Cachaça</item>
+        <item>Other</item>
+
+    </string-array>
+</resources>
