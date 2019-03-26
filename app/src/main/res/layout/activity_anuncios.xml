@@ -10,42 +10,12 @@
 
     <SearchView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="50dp"
         android:layout_weight="0"
         android:queryHint="Search your cocktail here!"
         android:textAlignment="textEnd">
 
     </SearchView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonRegiao"
-            style="?attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Spirit" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="|" />
-
-        <Button
-            android:id="@+id/buttonCategoria"
-            style="?attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Method" />
-
-    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"

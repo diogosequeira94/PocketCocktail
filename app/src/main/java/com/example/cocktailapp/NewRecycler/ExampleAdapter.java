@@ -1,16 +1,21 @@
 package com.example.cocktailapp.NewRecycler;
 
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.cocktailapp.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleViewHolder> {
 
@@ -21,6 +26,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         public ImageView mImageView;
         public TextView mTextView1;
         public TextView mTextView2;
+        // public ImageView mDeleteImage;
 
         public ExampleViewHolder(View itemView) {
             super(itemView);
@@ -28,10 +34,15 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
             mImageView = itemView.findViewById(R.id.imageView);
             mTextView1 = itemView.findViewById(R.id.textView);
             mTextView2 = itemView.findViewById(R.id.textView2);
+            // mDeleteImage = itemView.findViewById(R.id.favIcon);
+
+
         }
     }
     public ExampleAdapter(ArrayList<ExampleItem> exampleList){
         mExampleList = exampleList;
+
+
 
     }
 
@@ -50,14 +61,14 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         holder.mImageView.setImageResource(currentItem.getmImageResource());
         holder.mTextView1.setText(currentItem.getText1());
         holder.mTextView2.setText(currentItem.getText2());
+
+
+
     }
 
     @Override
     public int getItemCount() {
         return mExampleList.size();
     }
-
-
-
 
 }

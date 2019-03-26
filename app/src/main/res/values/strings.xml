@@ -1,6 +1,73 @@
 <resources>
     <string name="app_name">Cocktail App</string>
     <string name="title_activity_meus_anuncios">MeusAnuncios</string>
+    <string name="daiqiri_desc">The classic daiquiri is a simple, beautiful cocktail, worlds away from the frozen version. Rum, fresh lime juice, sugar. Shaken. Nothing more</string>
+    <string name="amaretto_desc">A stronger variation uses a splash of Sweet and Sour mix instead of lemon juice</string>
+    <string name="americano_desc">Classic cocktail, a variation of the cocktail created around 1860s and originally known as Milano Torino because Campari is from Milan and Cinzano is from Turin</string>
+    <string name="appletini_desc">Often referred to as Apple Martini, this popular cocktail has many variations including light rum instead of vodka or with Martini Bianco</string>
+    <string name="aviation_desc">Classic Cocktail, created in New York by bartender Hugo Ensslin in early XX century. Creme de Violette is often omitted because it is quite difficult to find</string>
+    <string name="bacardi_desc">Pre-dinner IBA official cocktail. Grenadine version of the cocktail originated in the United States</string>
+    <string name="bay_desc">Slightly more complicated than Cape Cod cocktaiil, also called Hawaiian Sea Breeze</string>
+    <string name="bee_desc">A sweet, citrus cocktail from Prohibition times. The name simply means \'excelent\' or \'the best\'. One variation omits orange juice</string>
+    <string name="russian_desc">Black Russian was invented in 1949 by Gustave Tops, a Belgian barman, and now it is an IBA official cocktail. The cocktail owes its name to the use of vodka, a stereotypical Russian spirit, and the blackness of the coffee liquer.</string>
+    <string name="blue_desc">Contrary to its name, this hot winter cocktail doesn\'t have any blueberries in its ingredient list, but many people describe the taste as fruity, reminiscent of blueberries</string>
+    <string name="bolo_desc">A classic cocktail from the legendary Savoy Cocktail Book. It is preferred to use fresh juices in this recipe</string>
+    <string name="choco_desc">Delicious varition of Espresso Martini using chocolate and coffee liquer</string>
+    <string name="clover_desc">IBA official cocktail known since the beginning of XX century, named after Philadelphia mens club. Popular variation uses grenadine instead of raspberry syrup</string>
+    <string name="cuba_desc">Often referred to as Rum and Coke, this IBA official cocktail became popular in the United States after the Andrews Sisters recorded a song named after the drink\'s ingredientes, Rum and Coca-Cola, in 1945. Popular variation often omits lime juice</string>
+    <string name="dark_desc">IBA official long drink, with dark rum, ginger beer, lime and the a dash of Angostura Bitters make it a really exotic cocktail. One of my all time favourites</string>
+    <string name="margarita_desc">Margarita is classic, the most popular tequila-based cocktail in all world.</string>
+    <string name="mojito_desc">One the most popular rum-based cocktails. This is an IBA official cocktail that wasinvented in Cuba around the 16th century. With mint and lime, it is an extra fresh cocktail, ideal in warm summer day.</string>
+    <string name="tequi_desc">The cocktail was invented in the 1930-40s by gene Sulit and names for the way it looks after it has been poured into glass. It is an IBA official cocktail</string>
+    <string name="elpre_desc">Classic cocktail from 1930s, this is the popular variation that was created in Havana during Prohibition</string>
+    <string name="pina_desc">The name translates from Spanish as \'strained pineapple\'. It is an official IBA cocktail and the official beverage of Puerto Rico since 1978</string>
+    <string name="cosmo_desc">As often, the originals of this IBA official cocktail are disputed. It is generally recognized that John Caine brought the drink to San Francisco around 1980-s from the Midwest, but most likely this cocktail was created independently by different bartenders in 1970s</string>
+    <string name="sourw_desc">IBA offcial pre-dinner cocktail. The oldest historical mention of a whisky sour prepared in the world comes from a newspaper published in Winsconsin USA in 1870</string>
+    <string name="caipirina_desc">Famous Brazil national cocktail made with Cachaca. The word caipirinha is the diminutive version of the word caipira, which refers to someone from the countryside, being an almost exact equivalent of American English hillbilly</string>
+    <string name="roska_desc">A variation of Caipirinha made with vodka instead of Cachaca, also popular in Brazil and nearby countries. Also known as Caipivodka or Caipirodka</string>
+    <string name="long_desc">Named for its resemblance to non-alcoholic iced tea, this IBA official cocktail is very popular andquite strong. It can make you drunk quite easily due to its alcoholic ingredients.</string>
+
+  <!--Other Stuff -->
+
+    <string name="descriptionlol"><u>Description</u></string>
+    <string name="shake_strain"><b>Shake and Strain</b> – Put ice and ingredients into a shaker tin, shake and strain into a glass. Often used for shooters and martinis.</string>
+    <string name="Premium"><b>Premium</b> – Premium refers to premium alcohol or top-shelf liquor (E.g. the well or bar rail gin is Beefeater and the premium is Tanqueray)</string>
+    <string name="pony"><b>Pony</b> – A pony or pony shot is equal to 1 ounce.</string>
+    <string name="bitters"><b>Bitterts</b> – a herbal alcoholic blend which is meant to be added to other cocktails to enhance flavour (e.g a Manhattan is rye, sweet vermouth and a couple dashes of bitters). Angostura Bitters is one of the most popular brands and was first invented by a German physician for stomach maladies in 1824.</string>
+    <string name="shooter"><b>Shooter</b> – a shooter or shot is a 1-2 ounce serving of either straight liquor (like Tequila) or a mixture of alcohol (like a B-52 Shooter – Irish Cream, Kahlua and Grand Marnier) that is meant to be drank (or shot) in one gulp.</string>
+    <string name="rim"><b>Rim</b> – To rim a glass, first wet the rim with a lime, or the lime juice in a rimmer, then gently press the rim of the glass into a saucer of salt (for margaritas and Bloody Marys), celery salt (for Bloody Caesars) or sugar (for specialty coffees and cocktails). Be creative with your rim jobs – try to look for alternatives like crushed candy cane, flavoured salts or other more exotic spices that match well with your drink’s ingredients.</string>
+    <string name="layer"><b>Layer</b> – Layering a shot or drink is done the same way as floating. The heavier alcohol goes on the bottom and the next, lighter alcohol gets floated on top using a careful pour down the side of the glass or a pour over an inverted spoon.</string>
+    <string name="barterms"><b>Bar Terms and Bartender Terminology </b> – A few drops or a very small amount of an ingredient.</string>
+    <string name="back"><b>Back</b> – a ‘back’ is a small glass of something (like water or cola) which accompanies a drink.</string>
+    <string name="twist"><b>Twist</b> – The rind of a lemon which is peeled using a special peeler called a zester or lemon zestor. The resulting lemon twist is thin and long.</string>
+    <string name="mixer"><b>Mixer</b> – Mixers are the non-alcoholic ‘mixes’ that accompany alcohol in drinks. Mixers can be water, soda, juice, energy drinks etc</string>
+    <string name="jigger"><b>Jigger</b> – A jigger is an hour-glass shaped steel measuring device – where one side measures 1 ounce (30ml) and the other measures 1½ ounces (45ml). However, jiggers come in many different sizes.</string>
+    <string name="speed"><b>Speed Rail</b> – This bar terminology typically means the long stainless steel shelf connected to the front of the sinks and ice well at bartender stations behind the bar. It holds the most commonly ordered liquor eg. rum, vodka, gin and whiskey, and possibly other popular liqueurs or mixes.</string>
+    <string name="cooler"><b>Cooler</b> – An alcoholic-based bottled beverage offered in a variety of different alcohols – vodka, rum, wine – which comes in a variety of flavours. (E.g. Smirnoff Ice, Wildberry cooler, Mike’s Hard Lemonade).</string>
+    <string name="frost"><b>Frost</b> – To frost a glass, dip it in water, let it drain and then put it in the freezer. This creates a layer of frost around the glass and works especially well for beer mugs.</string>
+    <string name="blend"><b>Blend</b> – To mix up ingredients and ice in an electric blender. Depending on where you live, these could be called frozen drinks or blended drinks.</string>
+    <string name="strain"><b>Strain</b> – To drain the liquid out of a shaker tin.</string>
+    <string name="wheter">Whether you call them bar terms, bartender terminology or bartender lingo, it all equates to the same thing – the words you need to know to become a good bartender. Learning proper bar terms is not difficult – they’re aren’t that many and much is self-explanatory. Consider the list below to be a kind of bartending dictionary – a literal A – Z of bartender terms.</string>
+    <string name="straigh"><b>Straight up</b> – Refers to a drink, like a martini, which is shaken in a shaker and strained into a glass. In some areas, straight up is used interchangeably with ‘neat’.</string>
+    <string name="well"><b>Well Drink</b> - Last but not least for bar terms, Unlike a Call Drink, a well drink is a drink where neither the brand of the liquor or brand of the mix is mentioned (E.g Gin and Tonic, Rum and Coke).</string>
+    <string name="thats">That’s about all the bar terms you’ll need to know as a bartender.</string>
+    <string name="virgin"><b>Virgin</b> – refers to a non-alcoholic drink. Used to order common cocktails minus the alcohol. Eg. Virgin Bloody Mary, Virgin Pina Colada.</string>
+    <string name="sour"><b>Sour</b> – the term ‘sour’ refers to the sourness of sour bar mix, bar lime mix, lime bar mix or margarita mix (all different names for what are essentially the same thing), which are used in many cocktails (such as a Margarita). If someone orders a Vodka Sour, they want vodka and bar lime mix.</string>
+    <string name="shake"><b>Shake</b> – Fill a glass with ice, build the ingredients, then pour everything into a shaker tin and shake. Pour everything back into the original glass. Or, if you are an experienced bartender then you will be able to fill the shaker with ice and ingredients in perfect proportions.</string>
+    <string name="shaker"><b>Shaker Tin</b> – A shaker tin is usually metal while the mixing glass is made from, well, glass. Used to mix cocktails, first ice and ingredients are added to the shaker tin, then the mixing glass placed on top (creating a seal) and shaken.</string>
+    <string name="sangria"><b>Sangria</b> – A wine-based cocktail that contains wine, triple sec, orange juice and fruit. Many variations exist and some recipes may call for the addition of a different juice or may not contain triple sec but the basis of this drink is wine and juice.</string>
+    <string name="rocks"><b>Rocks (On the) </b> – On the rocks simply refers to a drink with ice. Eg. Scotch on the rocks.</string>
+    <string name="muddle"><b>Muddle</b> – To crush up ingredients with a special tool called a muddler. This is done for drinks such as the Mojito – where the muddling process extracts essential oils and flavours (from the mint leaves in case of the Mojito).</string>
+    <string name="neat"><b>Neat</b> – This ones important to know in bar terms. If someone asks for a whiskey neat, they are asking for a shot straight out of the bottle. Neat means no ice. Of course that shot must be in a whiskey glass. Whiskey drinkers are picky!</string>
+    <string name="highball"><b>Highball</b> – Any liquor mixed with soda, served in a tall glass (often called a highball).</string>
+    <string name="dirty"><b>Dirty</b> – Adding olive juice to a martini which makes it a Dirty Martini. The more olive juice, the dirtier the martini.</string>
+    <string name="garnish"><b>Garnish</b> – A garnish is something added to a drink after the ingredients to enhance the presentation. Common garnishes are lemon slices or lime wedges, cherries, olives etc. Some garnishes are purely for looks and some are to add to the flavour of the drink.</string>
+    <string name="free"><b>Free Pour</b> – To make and mix drinks without using a measuring device like a jigger or measured pour spout. To pour free of a measuring device, usually straight from a bottle with a non-measured pour spout</string>
+    <string name="floata"><b>Float</b> – when one alcohol sits on top of another alcohol in a shooter glass. (E.g. a B-52 shooter contains Kahlua, Irish Cream and Grand Marnier. Kahlua is heavier than Irish Cream which is heavier than GM so each one floats on the other. This can be done by pouring very carefully down the side of the glass or pouring the floated alcohol over an inverted bar spoon, allowing the alcohol to trickle off the spoon in many directions).</string>
+    <string name="flame"><b>Flame</b> – Setting a drink on fire. Sambucca is often lit on fire to heat it up before putting the flame out and drinking it. Another common method is to use 151-proof rum which is very flammable. It’s not recommended to flame drinks unless you are VERY skilled. Bad things can happen!</string>
+    <string name="dry"><b>Dry</b> – Very little vermouth added to a martini. The more dry the customer wants their martini, the less vermouth added.</string>
+    <string name="build"><b>Build</b> – A bar term meaning to make a drink – starting with ice and then ‘building’ the drink by adding the other ingredients (i.e. alcohol, juice, garnish etc).</string>
+    <string name="barspoon"><b>Bar Spoon</b> – a long mixing spoon which often has a lemon zester or something similar on the other end</string>
 
     <string-array name="estados">
 

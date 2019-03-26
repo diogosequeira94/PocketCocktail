@@ -22,18 +22,5 @@
         android:text="About"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="This application was meant to help Bar Managers like myself to save their products in a database, keeping them organized and listed by categories and method of preparation. \n\n Being part of the portfolio i'm currently working on, it does also aim to help others in the same matter, altought it is only part of a project. \n\n You can reach my by clicking any of the platforms below, have fun trying the application out! :) " />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        app:srcCompat="@drawable/cocktail" />
 </LinearLayout>
 </ScrollView>

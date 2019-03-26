@@ -1,7 +1,10 @@
 package com.example.cocktailapp.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -37,9 +40,9 @@ public class DetalhesProdutoActivity extends AppCompatActivity {
 
             titulo.setText(anuncioSelecionado.getTitulo());
             descricao.setText(anuncioSelecionado.getDescricao());
-            categoria.setText(anuncioSelecionado.getCategoria());
+            categoria.setText("Type: " + anuncioSelecionado.getCategoria());
             preco.setText(anuncioSelecionado.getValor());
-            estado.setText(anuncioSelecionado.getEstado());
+            estado.setText("Method: " + anuncioSelecionado.getEstado());
 
             ImageListener imageListener = new ImageListener() {
                 @Override
@@ -55,6 +58,8 @@ public class DetalhesProdutoActivity extends AppCompatActivity {
 
 
     }
+
+
 
     private void inicializarComponentes(){
         carouselView = findViewById(R.id.carouselView);

@@ -11,6 +11,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import com.example.cocktailapp.R;
+import com.example.cocktailapp.SplashScreen.MainMenu;
 import com.example.cocktailapp.helper.ConfiguracaoFirebase;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -36,7 +37,6 @@ public class CadastroActivity extends AppCompatActivity {
 
         inicializaComponentes();
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
-
         botaoAcessar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,8 +60,7 @@ public class CadastroActivity extends AppCompatActivity {
                                                 "Sucess registing new user!",
                                                 Toast.LENGTH_SHORT).show();
 
-                                        //Directs user to Main Screen
-
+                                        startActivity(new Intent(getApplicationContext(), MainMenu.class));
                                     }else{
 
                                         String erroExcecao = "";
@@ -95,7 +94,7 @@ public class CadastroActivity extends AppCompatActivity {
                                         Toast.makeText(CadastroActivity.this,
                                                 "Login sucessful",
                                                 Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(getApplicationContext(), AnunciosActivity.class));
+                                        startActivity(new Intent(getApplicationContext(), MainMenu.class));
                                     }else{
                                         Toast.makeText(CadastroActivity.this,
                                                 "Error Login in: " + task.getException(),
