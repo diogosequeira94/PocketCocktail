@@ -71,4 +71,6 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
         return mExampleList.size();
     }
 
+
+
 }

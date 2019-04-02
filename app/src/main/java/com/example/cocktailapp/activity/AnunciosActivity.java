@@ -26,6 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 public class AnunciosActivity extends AppCompatActivity {
 
@@ -64,6 +65,8 @@ public class AnunciosActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
+
 
         return super.onCreateOptionsMenu(menu);
 
@@ -120,7 +123,7 @@ public class AnunciosActivity extends AppCompatActivity {
 
        final ArrayList<ExampleItem> exampleList = new ArrayList<>();
        exampleList.add(new ExampleItem(R.mipmap.daiquiri, "Classic Daiquiri","Rum", getString(R.string.daiqiri_desc), "- 50ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
-       exampleList.add(new ExampleItem(R.mipmap.margarita, "Classic Margarita","Tequila", getString(R.string.margarita_desc),"- 50ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
+       exampleList.add(new ExampleItem(R.mipmap.margarita, "Classic Margarita","Tequila", getString(R.string.margarita_desc),"- 30ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
        exampleList.add(new ExampleItem(R.mipmap.mojito, "Mojito","Rum", getString(R.string.mojito_desc),"- 50ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
        exampleList.add(new ExampleItem(R.mipmap.tequi, "Tequila Sunrise","Tequila", getString(R.string.tequi_desc),"- 50ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
        exampleList.add(new ExampleItem(R.mipmap.porn, "Pornstar Martini","Vodka", "","- 50ml White Rum\n- 25ml Lime Juice\n- 50ml Sugar Syrup\n\nGarnish: One lime Wheel"));
@@ -193,10 +196,6 @@ public class AnunciosActivity extends AppCompatActivity {
 
                                ExampleItem exampleItem = exampleList.get(position);
 
-                               Toast.makeText(
-                                       getApplicationContext(), "Cocktail Selected: " +exampleItem.getText1(),
-                                       Toast.LENGTH_SHORT
-                               ).show();
 
                                //Intent to start new activity
 
@@ -245,6 +244,7 @@ public class AnunciosActivity extends AppCompatActivity {
 
    }
 
-    }
+
+}
 
 
