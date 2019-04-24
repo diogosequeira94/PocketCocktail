@@ -11,5 +11,5 @@ Cocktial Application with Cocktial Recipes, Bar tips, a Bar Manual, using Fireba
 <h4> Demo </h4>
 </br>
 
-![Sociologia App](demo/20190424_172344.gif)
+![Sociologia App](demo/20190424_174608.gif)
 
