@@ -8,5 +8,8 @@ Cocktial Application with Cocktial Recipes, Bar tips, a Bar Manual, using Fireba
 - Material Search View </br>
 - Picasso
 </br>
-<h4> Screenshots </h4>
+<h4> Demo </h4>
+</br>
+
+![Sociologia App](demo/20190424_172344.gif)
 
